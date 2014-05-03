@@ -1,0 +1,11 @@
+.my-resp-img {
+	display: block;
+	max-width:100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+.my-resp-img img {
+	width: auto;
+	height: auto;	
+}
