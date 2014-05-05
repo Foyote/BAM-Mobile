@@ -11,3 +11,11 @@
 	max-width: 460px;
 	width: 90%;	
 }
+
+body, input, select, textarea, button, .ui-btn {
+	line-height: 2.3em;	
+}
+
+a {
+	text-decoration: none;	
+}
