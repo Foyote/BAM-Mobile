@@ -19,3 +19,7 @@ body, input, select, textarea, button, .ui-btn {
 a {
 	text-decoration: none;	
 }
+
+.no-shadow {
+	text-shadow: 0px 0px black;	
+}

@@ -249,7 +249,7 @@ html .ui-panel-page-container-a {
 	background-color: #333 /*{a-body-background-color}*/;
 	border-color: #990600 /*{a-body-border}*/;
 	color: #e8e8e8 /*{a-body-color}*/;
-	text-shadow: 0 /*{a-body-shadow-x}*/ 1px /*{a-body-shadow-y}*/ 0 /*{a-body-shadow-radius}*/ #bbb /*{a-body-shadow-color}*/;
+	/* text-shadow: 0 /*{a-body-shadow-x}*/ 1px /*{a-body-shadow-y}*/ 0 /*{a-body-shadow-radius}*/ #bbb /*{a-body-shadow-color}*/; */
 }
 .ui-body-a {
 	border-width: 1px;
@@ -267,7 +267,7 @@ html body .ui-group-theme-a a {
 html .ui-bar-a a:visited,
 html .ui-body-a a:visited,
 html body .ui-group-theme-a a:visited {
-    color: #3388cc /*{a-link-visited}*/;
+    /* color: #3388cc /*{a-link-visited}*/; */
 }
 .ui-page-theme-a a:hover,
 html .ui-bar-a a:hover,
