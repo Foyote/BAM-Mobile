@@ -23,3 +23,29 @@ a {
 .no-shadow {
 	text-shadow: 0px 0px black;	
 }
+
+.price {
+	display: inline-block;
+	margin: 0;
+	font-size: 26px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.service {
+	display: inline-block;
+	font-size: 20px;
+	margin: 0 5px 0 0;
+	height: 40px;
+	line-height: 40px;
+	width: 60%;
+}
+
+.service-list {
+	list-style-type: none;	
+	padding: 0;
+}
+
+.service-item {
+	border-bottom: 1px solid #990600;	
+}

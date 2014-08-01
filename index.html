@@ -14,9 +14,9 @@
 <body> 
 
 <div data-role="page" id="page">
-	<div data-role="header">
+	<header data-role="header" data-add-back-btn="true">
 		<h1>BAM! Style</h1>
-	</div>
+	</header>
 	<div data-role="content">
     	<div class="my-resp-img">
         	<img alt="BAM Style!" src="images/bamlogo.png" />
@@ -28,19 +28,20 @@
             <li><a href="#page5">Mobile Only Coupon</a></li>
 		</ul>		
 	</div>
-	<div data-role="footer" data-position="fixed">
-    	<h3>&nbsp;</h3>
-		<a data-role="button" href="#">Call Now</a>
-        <a data-role="button" href="#">Book Online</a>
+	<div data-role="footer" class="ui-bar" data-position="fixed">
+    	<div data-role="controlgroup" data-type="horizontal">
+		<a class="ui-btn ui-btn-corner-all" href="#page2">Call Now</a>
+        <a class="ui-btn ui-btn-corner-all" href="#page4">Book Online</a>
+        </div>
 	</div>
 </div>
 
 <div data-role="page" id="page2">
-	<div data-role="header">
-		<h1>BAM! Locations</h1>
-	</div>
-	<div data-role="content">	
-		<div class="ui-grid-solo">
+	<header data-role="header" data-add-back-btn="true">
+		<h1>BAM! Style</h1>
+	</header>	
+    <div data-role="content">	
+		<div class="ui-grid-solo ui-mini">
         	<div class="ui-block-a" data-role="collapsible-set">
             		<div data-role="collapsible">
         				<h2>Central Entrance Location</h2>
@@ -63,22 +64,66 @@
             </div>
         </div>		
 	</div>
-	<div data-role="footer" data-position="fixed">
-    	<h3>&nbsp;</h3>
-		<a data-role="button" href="#">Call Now</a>
-        <a data-role="button" href="#page4">Book Online</a>
+	<div data-role="footer" class="ui-bar" data-position="fixed">
+    	<div data-role="controlgroup" data-type="horizontal">
+		<a class="ui-btn ui-btn-corner-all" href="#page2">Call Now</a>
+        <a class="ui-btn ui-btn-corner-all" href="#page4">Book Online</a>
+        </div>
 	</div>
 </div>
 
 <div data-role="page" id="page3">
-	<div data-role="header">
-		<h1>Our Services</h1>
-	</div>
+	<header data-role="header" data-add-back-btn="true">
+		<h1>BAM! Style</h1>
+	</header>
 	<div data-role="content">
 	  <div data-role="collapsible-set">
 	    <div data-role="collapsible">
 	      <h3>For Men</h3>
-	      <p>Content</p>
+	      <ul class="service-list">
+          	<li class="service-item">
+                <p class="service">Haircut</p>
+            	<p class="price">$17</p>
+
+            </li>
+            
+            <li class="service-item">
+                <p class="service">Fade</p>
+            	<p class="price">$19</p>
+
+            </li>
+            
+            <li class="service-item">
+                <p class="service">Razor Fade</p>
+            	<p class="price">$21</p>
+
+            </li>
+            <li class="service-item">
+                <p class="service">Cut and Shave</p>
+            	<p class="price">$32</p>
+
+            </li>
+            <li class="service-item">
+                <p class="service">Shave</p>
+            	<p class="price">$22</p>
+
+            </li>
+            <li class="service-item">
+                <p class="service">Mustache</p>
+            	<p class="price">$3</p>
+
+            </li>
+            <li class="service-item">
+                <p class="service">Wash</p>
+            	<p class="price">$5</p>
+
+            </li>
+            <li class="service-item">
+                <p class="service">Design</p>
+            	<p class="price">$5-$15</p>
+
+            </li>
+          </ul>
         </div>
 	    <div data-role="collapsible" data-collapsed="true">
 	      <h3>For Women</h3>
@@ -99,39 +144,42 @@
       </div>	
 			
 	</div>
-	<div data-role="footer" data-position="fixed">
-    	<h3>&nbsp;</h3>
-		<a data-role="button" href="#">Call Now</a>
-        <a data-role="button" href="#">Book Online</a>
+	<div data-role="footer" class="ui-bar" data-position="fixed">
+    	<div data-role="controlgroup" data-type="horizontal">
+		<a class="ui-btn ui-btn-corner-all" href="#page2">Call Now</a>
+        <a class="ui-btn ui-btn-corner-all" href="#page4">Book Online</a>
+        </div>
 	</div>
 </div>
 
 <div data-role="page" id="page4">
-	<div data-role="header">
-		<h1>Book Online!</h1>
-	</div>
+	<header data-role="header" data-add-back-btn="true">
+		<h1>BAM! Style</h1>
+	</header>
 	<div data-role="content">	
 		<a data-role="button" href="http://bamstylecentral.mylocalsalon.com/OnlineBooking">Central Entrance Location</a>
         <a data-role="button" href="https://bamstylewoodland.mylocalsalon.com/OnlineBooking">Woodland Ave Location</a>		
 	</div>
-	<div data-role="footer" data-position="fixed">
-    	<h3>&nbsp;</h3>
-		<a data-role="button" href="#">Call Now</a>
-        <a data-role="button" href="#">Book Online</a>
+	<div data-role="footer" class="ui-bar" data-position="fixed">
+    	<div data-role="controlgroup" data-type="horizontal">
+		<a class="ui-btn ui-btn-corner-all" href="#page2">Call Now</a>
+        <a class="ui-btn ui-btn-corner-all" href="#page4">Book Online</a>
+        </div>
 	</div>
 </div>
 
 <div data-role="page" id="page5">
-	<div data-role="header">
-		<h1>Mobile Only Coupon</h1>
-	</div>
+	<header data-role="header" data-add-back-btn="true">
+		<h1>BAM! Style</h1>
+	</header>
 	<div data-role="content">	
 		Content		
 	</div>
-	<div data-role="footer" data-position="fixed">
-    	<h3>&nbsp;</h3>
-		<a data-role="button" href="#">Call Now</a>
-        <a data-role="button" href="#">Book Online</a>
+	<div data-role="footer" class="ui-bar" data-position="fixed">
+    	<div data-role="controlgroup" data-type="horizontal">
+		<a class="ui-btn ui-btn-corner-all" href="#page2">Call Now</a>
+        <a class="ui-btn ui-btn-corner-all" href="#page4">Book Online</a>
+        </div>
 	</div>
 </div>
 </body>
